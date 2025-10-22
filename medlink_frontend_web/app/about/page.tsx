@@ -1,12 +1,10 @@
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
 import React from 'react'
 
-const Chat = () => {
+const About = () => {
   return (
-    <MaxWidthWrapper className='mt-5'>Chat</MaxWidthWrapper>
+    <MaxWidthWrapper className='mt-5'>About</MaxWidthWrapper>
   )
 }
 
-
-
-export default Chat
+export default About

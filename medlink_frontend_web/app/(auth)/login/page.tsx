@@ -1,8 +1,9 @@
+import MaxWidthWrapper from '@/components/MaxWidthWrapper'
 import React from 'react'
 
 const LoginPage = () => {
   return (
-    <div>LoginPage</div>
+    <MaxWidthWrapper className='mt-5'>LoginPage</MaxWidthWrapper>
   )
 }
 

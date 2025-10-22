@@ -23,30 +23,30 @@ interface HeroProps {
 }
 
 const Hero = ({
-  heading = "Epic Blocks",
-  subheading = " built with shadcn/ui & Tailwind",
-  description = "Finely crafted components built with React, Tailwind and Shadcn UI. Developers can copy and paste these blocks directly into their project.",
+  heading = "MedLink",
+  subheading = "Connecting Patients with Doctors",
+  description = "Easily find doctors, book appointments, and get online consultations — all in one platform.",
   buttons = {
     primary: {
-      text: "Get Started",
-      url: "#",
+      text: "Find Doctors",
+      url: "/doctors",
     },
     secondary: {
-      text: "Read the docs",
-      url: "#",
+      text: "Learn More",
+      url: "/about",
     },
   },
   image = {
     src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-dark-7-tall.svg",
-    alt: "Placeholder",
+    alt: "Doctor-Patient Consultation",
   },
 }: HeroProps) => {
   return (
-    <section className="bg-background flex items-center justify-center pb-20 pt-0 lg:pb-32 lg:pt-5">
+    <section className="bg-background flex items-center justify-center pb-20 pt-0 lg:pb-32 lg:pt-10">
       <div className="container flex flex-col items-center gap-10 lg:my-0 lg:flex-row">
         <div className="flex flex-col gap-7 p-5 lg:w-2/3">
-          <h2 className="text-foreground text-5xl font-semibold md:text-5xl lg:text-8xl">
-            <span>{heading}</span>
+          <h2 className="text-foreground text-4xl font-semibold md:text-5xl lg:text-8xl">
+            <span>{heading}</span> {" "}
             <span className="text-muted-foreground">{subheading}</span>
           </h2>
           <p className="text-muted-foreground text-base md:text-lg lg:text-xl">

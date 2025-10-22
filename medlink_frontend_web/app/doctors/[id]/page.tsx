@@ -3,7 +3,7 @@ import MaxWidthWrapper from '@/components/MaxWidthWrapper'
 
 const DoctorPage = () => {
   return (
-    <MaxWidthWrapper>DoctorPage</MaxWidthWrapper>
+    <MaxWidthWrapper className='mt-5'>DoctorPage</MaxWidthWrapper>
   )
 }
 

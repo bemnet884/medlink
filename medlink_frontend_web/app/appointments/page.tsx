@@ -3,7 +3,7 @@ import React from 'react'
 
 const Appointments = () => {
   return (
-    <MaxWidthWrapper>Appointments</MaxWidthWrapper>
+    <MaxWidthWrapper className='mt-5'>Appointments</MaxWidthWrapper>
   )
 }
 

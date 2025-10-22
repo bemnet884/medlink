@@ -1,8 +1,9 @@
+import MaxWidthWrapper from "@/components/MaxWidthWrapper"
 
 
 const RegisterPage = () => {
   return (
-    <div>RegisterPage</div>
+    <MaxWidthWrapper className='mt-5'>RegisterPage</MaxWidthWrapper>
   )
 }
 
